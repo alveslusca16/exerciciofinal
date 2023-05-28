@@ -3,7 +3,7 @@ use std::io;
 fn main() {
     let mut alunos: Vec<String> = Vec::new();
     let mut medias: Vec<f32> = Vec::new();
-    for _ in 0..2 {
+    for _ in 0..5 {
         let mut nome = String::new();
         println!("Digite o nome do aluno: ");
         io::stdin().read_line(&mut nome).expect("Erro ao ler aluno");
